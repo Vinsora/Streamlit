@@ -13,7 +13,7 @@ url= "https://www.youtube.com/watch?v=D-D6ZmadzPE"
 col1, col2 = st.columns(2)
 option = st.sidebar.radio("Select one:", ["image", "video"])
 if option == "image":
-    st.image("/Users/vincenzosoragnese/Desktop/DSR-37/Streamlit/img.png")
+    st.image("./img.png")
 else:
     st.video(url)
 
